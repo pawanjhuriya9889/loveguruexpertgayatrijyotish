@@ -97,7 +97,7 @@ body {
 }
 
 /* Fixed Buttons */
-.fixed-btn {
+.fixed-btn1 {
     position: fixed;
     bottom: 15px;
     z-index: 9999;
@@ -107,10 +107,28 @@ body {
     color: #ffffff;
     text-decoration: none;
     border-radius: 15px 0 15px 0;
+    background: linear-gradient(90deg, #7a0000, #c20000);
 }
 
-.left-btn { left: 15px; background: linear-gradient(90deg, #7a0000, #c20000); }
-.right-btn { right: 15px; background: linear-gradient(90deg, #7a0000, #c20000); }
+.fixed-btn2 {
+    position: fixed;
+    bottom: 15px;
+    z-index: 9999;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 15px 0 15px 0;
+    background: green;
+}
+
+.txtyel{
+    color: #ffd700;
+}
+
+.left-btn { left: 15px;  }
+.right-btn { right: 15px;  }
 
 
 
